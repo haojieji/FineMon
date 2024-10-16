@@ -1,7 +1,7 @@
 # FineMon
 ### Introduction：😊
 
-##### FineMon is an fine-grained multi-metric data monitoring scheme with adaptive frequencies, and this work was carried out in response to **<u>Huawei</u>**'s needs. FineMon has accepted by **<u>SIGMOD 2024</u>**. This is a description of our monitoring scheme-FineMon. 
+FineMon is an fine-grained multi-metric data monitoring scheme with adaptive frequencies, and this work was carried out in response to **<u>*Huawei*</u>**'s needs ✊. FineMon has accepted by **<u>SIGMOD 2024</u>** ✌. This is a description of our monitoring scheme-FineMon. 
 
 What FineMon can do？💪💪💪 
 
