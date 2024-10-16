@@ -1,7 +1,7 @@
 # FineMon
-### Introduction：
+#### Introduction：
 
-This is a description of our monitoring scheme-FineMon. 
+FineMon is an fine-grained multi-metric data monitoring scheme with adaptive frequencies, and this work was carried out in response to **Huawei**'s needs. FineMon has accepted by SIGMOD 2024. This is a description of our monitoring scheme-FineMon. 
 
 What FineMon can do？
 
@@ -13,11 +13,29 @@ What FineMon can do？
 
 The direct results of FineMon are illustrated as follows
 
-![revision1_Validation_of_Outlier_Capturing](revision1_Validation_of_Outlier_Capturing.png)
+![revision1_Validation_of_Outlier_Capturing](images/revision1_Validation_of_Outlier_Capturing.png)
+
+#### Poster:
+
+<img src="images/FineMon-poster.jpg" alt="FineMon-poster" style="zoom:80%;" />
+
+**Cite my work** if it gives you intuition or helps your research work.  **<*^..^*>**
+
+Haojie Ji, Kun Xie, Jigang Wen, Qingyi Zhang, Gaogang Xie, and Wei Liang. 2024. FineMon: An Innovative Adaptive Network Telemetry Scheme for Fine-Grained, Multi-Metric Data Monitoring with Dynamic Frequency Adjustment and Enhanced Data Recovery. Proc. ACM Manag. Data 2, 1, Article 12 (February 2024), 26 pages. https://doi.org/10.1145/3639267
+
+#### Monitoring System Demo:
+
+Don't forget give me **Star☆** if you interest or like our system demo.   **<^..^>**
+
+[![Demo-Vedio](Demo/demo-snapshot.png)](Demo/finemon-systemdemo.mp4)
+
+![demo-snapshot](Demo/demo-snapshot-2.png)
+
+#### Source File describetion:
 
 The code of FineMon is the MATLAB version.  The coding process is shown below figure:
 
-![finemon_process](finemon_process.png)
+![finemon_process](images/finemon_process.png)
 
 We introduce each code file as follows:
 
@@ -53,7 +71,7 @@ tran.m: the transpose of tensor
 
 tsvd.m: the t-SVD decomposition
 
-### Dataset:
+#### Dataset:
 
 1.MMS: A server performance dataset, the original link is [QAZASDEDC/TopoMAD: A Spatio-Temporal Deep Learning Approach for Unsupervised Anomaly Detection in Cloud Systems (TNNLS) (github.com)](https://github.com/QAZASDEDC/TopoMAD).   The original data is OriginalData_MMS_mat. The input tensor processed by data_preprocess.m is InputTensor_MMS_T=40_W=8.mat.
 
