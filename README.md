@@ -1,11 +1,13 @@
 # FineMon
+**Attention❗❗❗:** All content in this repository is used for research only, any selling is prohibited.
+
 ### Introduction：😊
 
 FineMon is an fine-grained multi-metric data monitoring scheme with adaptive frequencies, and this work was carried out in response to **<u>*Huawei*</u>**'s needs ✊. FineMon has accepted by **<u>SIGMOD 2024</u>** ✌. This is a description of our monitoring scheme-FineMon. 
 
 What FineMon can do？💪💪💪 
 
-​	-FineMon can monitor accurately fined-grained multi-metric data with low overhead since FineMon provides the adaptive frequency adjustment method. FineMon provides a theoretical study of the effect of the amount of noise on frequency.
+​	-FineMon accurately monitors fine-grained multi-metric data with low overhead, thanks to its Low-Rank Frequency Adaptation method. Additionally, FineMon includes a theoretical analysis of how noise levels impact frequency.
 
 ​	-FineMon can capture the various extremes, such as spikes and dips, according to the data distribution.
 
