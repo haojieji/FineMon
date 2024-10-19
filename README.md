@@ -1,15 +1,15 @@
 # FineMon
 **Attention❗❗❗:** All content in this repository is used for research only, any selling is prohibited.
 
-### Introduction：😊
+## Introduction😊
 
 FineMon is an fine-grained multi-metric data monitoring scheme with adaptive frequencies, and this work was carried out in response to **<u>*Huawei*</u>**'s needs ✊. FineMon has accepted by **<u>SIGMOD 2024</u>** ✌. This is a description of our monitoring scheme-FineMon. 
 
 What FineMon can do？💪💪💪 
 
-​	-FineMon accurately monitors fine-grained multi-metric data with low overhead, thanks to its Low-Rank Frequency Adaptation method. Additionally, FineMon includes a theoretical analysis of how noise levels impact frequency.
+​	-FineMon accurately monitors fine-grained multi-metric data with low overhead, thanks to its **Low-Rank Frequency Adaptation（LoRF）** method. Additionally, FineMon includes a theoretical analysis of how noise levels impact frequency.
 
-​	-FineMon can capture the various extremes, such as spikes and dips, according to the data distribution.
+​	-FineMon can capture the various extremes, such as spikes and dips, according to the data distribution, thanks to its **Two-side Frequency Adjustment (TFA)** method.
 
 ​	-FineMon can recover missing data with cyclicity even though data hasn't inherent cyclicity, and FineMon solves the limited accuracy of traditional subspace tensor completion in network telemetry by exploiting fine temporal features (enhanced subspace).
 
@@ -17,7 +17,7 @@ The direct results of FineMon are illustrated as follows
 
 ![revision1_Validation_of_Outlier_Capturing](images/revision1_Validation_of_Outlier_Capturing.png)
 
-### Poster：😄
+## Poster😄
 
 <img src="images/FineMon-poster.jpg" alt="FineMon-poster" style="zoom:80%;" />
 
@@ -25,7 +25,7 @@ The direct results of FineMon are illustrated as follows
 
 Haojie Ji, Kun Xie, Jigang Wen, Qingyi Zhang, Gaogang Xie, and Wei Liang. 2024. FineMon: An Innovative Adaptive Network Telemetry Scheme for Fine-Grained, Multi-Metric Data Monitoring with Dynamic Frequency Adjustment and Enhanced Data Recovery. Proc. ACM Manag. Data 2, 1, Article 12 (February 2024), 26 pages. https://doi.org/10.1145/3639267
 
-### Monitoring System Demo: 🤩
+## Monitoring System Demo🤩
 
 *Don't forget give me **Star☆☆☆**  👆👆👆  if you interest or like our system demo.   **<^..^>***
 
@@ -33,7 +33,7 @@ Haojie Ji, Kun Xie, Jigang Wen, Qingyi Zhang, Gaogang Xie, and Wei Liang. 2024. 
 
 ![demo-snapshot](Demo/demo-snapshot-2.png)
 
-### Source File describetion: 😊
+## Source File Describetion😊
 
 The code of FineMon is the MATLAB version.  The coding process is shown below figure:
 
@@ -73,7 +73,7 @@ tran.m: the transpose of tensor
 
 tsvd.m: the t-SVD decomposition
 
-### Dataset: 😶
+## Dataset😶
 
 1.MMS: A server performance dataset, the original link is [QAZASDEDC/TopoMAD: A Spatio-Temporal Deep Learning Approach for Unsupervised Anomaly Detection in Cloud Systems (TNNLS) (github.com)](https://github.com/QAZASDEDC/TopoMAD).   The original data is OriginalData_MMS_mat. The input tensor processed by data_preprocess.m is InputTensor_MMS_T=40_W=8.mat.
 
